@@ -41,7 +41,7 @@ db.on('disconnected', function (){
 
 app.use(express.static('public'));
 
-// Populates req.body with parsed info
+// Populates req.body with parsed info, because
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
